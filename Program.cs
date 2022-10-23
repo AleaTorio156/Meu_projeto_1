@@ -8,7 +8,7 @@ namespace ArrayATV
         {
             string[] numeros;
 
-            numeros = new string[10];
+            numeros = new string[11];
             numeros[0] = "1";
             numeros[1] = "2";
             numeros[2] = "3";
@@ -19,7 +19,7 @@ namespace ArrayATV
             numeros[7] = "8";
             numeros[8] = "9";
             numeros[9] = "10";
-
+            numeros[10] = "11"; 
            for (int i = 0; i < numeros.Length; i++)
             {
                 Console.WriteLine($"Os números que estão sendo exibidos são {numeros[i]}");
